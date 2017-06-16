@@ -15,7 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskr/flaskr/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -25,12 +25,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="flaskr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flaskr/flaskr/flaskr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/flaskr/flaskr/schema.sql" />
+        <option value="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" />
       </list>
     </option>
   </component>
@@ -284,6 +304,16 @@
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskr/flaskr/flaskr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
