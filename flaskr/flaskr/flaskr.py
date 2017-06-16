@@ -5,6 +5,12 @@ from flask import Flask, request, session, g, redirect, url_for, abort, render_t
 
 from flaskr.flaskr import app
 
+if __name__ == '__main__':
+    app.debug = True
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
+
+
 # Load default config and override config from an environment variable
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'flaskr.db'),
