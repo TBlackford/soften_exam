@@ -1,3 +1,6 @@
-from .flaskr import app
+from flask import Flask
 
-import flaskr.flaskr.views
+app = Flask(__name__)
+app.config.from_object(__name__) # load config from this file , flaskr.py
+
+import flaskr.views
