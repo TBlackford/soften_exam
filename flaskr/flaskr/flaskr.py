@@ -1,8 +1,7 @@
 # all the imports
 import os
 import sqlite3
-from flask import Flask, request, session, g, redirect, url_for, abort, \
-     render_template, flash
+from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 
 from flaskr.flaskr import app
 
@@ -16,6 +15,12 @@ app.config.update(dict(
 
 
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
+
+
+@failsafe
+def create_app():
+  from .flaskr import app
+  return app
 
 
 def connect_db():
