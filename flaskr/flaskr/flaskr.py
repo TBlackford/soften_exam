@@ -3,7 +3,7 @@ import os
 import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 
-from .flaskr import app
+from flaskr.flaskr import app
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
