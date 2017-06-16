@@ -2,7 +2,8 @@
 from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 
-from .flaskr import app, get_db
+from .flaskr import get_db
+from flaskr import app
 
 @app.route('/')
 def show_entries():
