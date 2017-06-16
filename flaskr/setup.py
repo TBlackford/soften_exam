@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='flaskr',
+    name='flaskr.flaskr',
     packages=find_packages(),
     include_package_data=True,
     entry_points='''
