@@ -1,1 +1,1 @@
-web: gunicorn flaskr:app
+set FLASK_APP=flaskr && python -m flask initdb && python -m flask run

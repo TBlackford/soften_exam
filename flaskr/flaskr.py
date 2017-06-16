@@ -8,6 +8,7 @@ from flaskr.flaskr import app
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
 
+
 # Load default config and override config from an environment variable
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'flaskr.db'),
